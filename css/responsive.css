@@ -1,0 +1,526 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+    
+body {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #777;
+    letter-spacing: 0.05rem;
+    line-height: 1.7;
+}
+
+
+
+/* ==================================================== @MEDIA SCREEN MAX-WIDTH(550PX) ==============================================================*/
+
+/* BUTTONS */
+
+@media (max-width: 550px) {
+    .btn, .btn:link, .btn:visited {
+        padding: 1rem 4rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .btn:not(:last-child), .btn:link:not(:last-child), .btn:visited:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .btn-contact {
+        width: calc(100% - 1rem);
+    }
+
+    .btn__app--previous {
+        justify-self: center;
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
+    .btn__app--next {
+        justify-self: center;
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
+    .btn__app {
+        background-color: #3f70b4;
+        padding: 0.8rem 1rem;
+    }
+
+    .verify--btn {
+        display: inline-block;
+        margin-top: 2rem;
+        width: calc(100% - 1rem);
+    }
+}
+
+
+/* TYPOGRAPHY */
+@media (max-width: 550px) {
+    .header--primary {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.6;
+    }
+    .header--secondary {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+    .header--paragraph {
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+    .header--sub-tertiary {
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .paragraph {
+        font-size: 1.8rem;
+    }
+}
+
+/* SPONSOR SECTION */
+
+@media (max-width: 550px) {
+    .sponsor__boxes {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        grid-row-gap: 4rem;
+    }
+}
+
+/* ABOUT SECTION */
+@media (max-width: 550px) {
+    .about__section {
+        padding: 10rem 0;
+    }
+
+    .about__box {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+
+    .about__left {
+        display: grid;
+    }
+
+    .about__left--img {
+        height: 25rem;
+        justify-self: center;
+    }
+
+    .about__content {
+        display: grid;
+        width: 100%;
+    }
+}
+
+/* ACTIVITIES SECTION */
+@media (max-width: 550px) {
+    .activities__boxes {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    .activities__image {
+        width: 100%;
+        height: 25rem;
+    }
+    .activities__content {
+        padding: 1rem;
+    }
+    .activities__goals {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .activities__goals--img {
+        width: 28rem;
+    }
+}
+
+/* PROJECT SECTION  */
+@media (max-width: 550px) {
+    .project {
+        padding: 1.5rem;
+    }
+    .project__container {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    .project__left {
+        width: 100%;
+        display: grid;
+        justify-self: center;
+    }
+    .project__right {
+        width: 100%;
+        display: grid;
+        justify-self: center;
+    }
+    .project__right img {
+        width: 100%;
+    }
+}
+
+/* LOAN SECTION */
+@media (max-width: 550px) {
+    .loan__container {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .loan--header {
+        font-size: 3rem;
+        line-height: 1.7;
+        font-weight: 700;
+    }
+
+    .loan--paragraph {
+        font-size: 2rem;
+    }
+
+    /* ----Loan Page Starts -----    */
+    .header__contact {
+        height: 100vh;
+        background-attachment: fixed;
+    }
+    .contact__banner {
+        padding: 0 1.5rem;
+        line-height: 1.7rem;
+    }
+
+}
+
+/* FOOTER SECTION */
+@media (max-width: 550px) {
+    .footer {
+        padding: 2% 2rem;
+    }
+
+    .footer__box {
+        display: grid;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 4rem 0;
+    }
+
+    .footer__box:not(:last-child) {
+        border-bottom: 0.1rem solid #c1c1c1;
+    }
+
+    .footer__box-f2 {
+        width: 100%;
+    }
+
+    .footer__box-f1 {
+        justify-self: center;
+    }
+}
+
+/* ======== CONTACT US PAGE ========== */
+@media (max-width: 550px) {
+    .header__contact {
+        height: 100vh;
+        background-attachment: fixed;
+    }
+    .contact__banner {
+        padding: 0 1.5rem;
+        line-height: 1.7rem;
+    }
+    .contact__header--primary {
+        font-size: 3rem !important;
+        font-weight: 700 !important;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .contact__header--span {
+        font-size: 1.8rem;
+        color: #c8ccd0;
+        text-transform: capitalize;
+        display: inline-block;
+        margin-top: 1rem !important;
+        font-weight: 600;
+    }
+}
+
+/* ======== APPLICATION  PAGE ========== */
+@media (max-width: 550px) {
+    .application__section {
+        padding: 10rem 0;
+    }
+    .application__container {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 2rem;
+    }
+    .application__box {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 2rem;
+        margin: 0;
+    }
+    .application__button--group {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0;
+    }
+    .application__form {
+        display: grid;
+    }
+    .application__form--group {
+        grid-gap: 2rem;
+    }
+    .application__form--input, .application__form--select, .application__form--textarea {
+        width: calc(100% - 1rem);
+    }
+    .application__form--textarea {
+        padding: 1rem 2rem;
+    }
+}
+
+/* ======== ELIGIBILITY  PAGE ========== */
+@media (max-width: 550px) {
+    .eligibility__section {
+        padding: 10rem 0;
+    }
+    .eligibility__box {
+        width: 100%;
+        padding: 1.8rem;
+    }
+    .eligibility__content {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+
+
+
+
+/* ==================================================== @MEDIA SCREEN MAX-WIDTH(769PX) ============================================================== */
+
+/* HEADER */
+@media screen and (max-width: 769px) {
+    nav {
+        padding: 15px 20px;
+    }
+
+    nav .nav__img{
+        width: 130px;
+    }
+
+    #menu-btn {
+        display: initial;
+    }
+    
+    #menu-close {
+        display: initial;
+        font-size: 16px;
+        color: white;
+        padding: 30px 0 20px 20px;
+    }
+
+    nav .nav__menu .nav__item {
+        position: absolute;
+        width: 250px;
+        height: 0;
+        opacity: 0;
+        background-color: rgba(17, 20, 104, 0.45);
+        backdrop-filter: blur(4.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 100000;
+        transition: all .3s ease;
+    }
+
+    nav .nav__menu .nav__item.active {
+        height: 100vh;
+        opacity: 1;
+    }
+
+    nav .nav__menu .nav__item .nav__list {
+        padding: 20px 10px 20px 10px;
+        margin-left: 0;
+    }
+
+    nav .nav__menu .nav__item .nav__list .nav__link {
+        color: #fff;
+    }
+
+    #home {
+        padding-top: 0px;
+    }
+
+    #home p {
+        width: 80%;
+    }
+
+}
+
+/* TYPOGRAPHY */
+@media screen and (max-width: 769px) {
+    .header--primary {
+        font-size: 5rem;
+        font-weight: 700;
+    }
+}
+
+/* SPONSOR SECTION */
+
+@media screen and (max-width: 769px) {
+
+    .sponsor__section {
+        padding: 5rem 0;
+        background-color: #e6e9f3;
+    }
+
+    .sponsor__boxes {
+        width: 70%;
+        grid-template-rows: repeat(2, minmax(100px, 1fr));
+        grid-gap: 3rem;
+    }
+}
+
+/* ABOUT SECTION */
+@media screen and (max-width: 769px) {
+    .about__section {
+        display: grid;
+        padding: 8rem 0;
+    }
+
+    .about__box {
+        width: 80%;
+        display: block;
+    }
+
+    .about__content {
+        display: block;
+        margin-top: 4rem;
+    }
+}
+
+/* ACTIVITIES SECTION */
+@media screen and (max-width: 769px) {
+    .activities__boxes {
+        display: block;
+    }
+
+    .activities__box {
+        margin-bottom: 4rem;
+    }
+
+    .activities__goals {
+        width: 80%;
+    }
+
+    .activities__goals--img {
+        width: 100%;
+        height: 20rem;
+    }
+}
+
+/* PROJECT SECTION  */
+@media screen and (max-width: 769px) {
+    .project__container {
+        width: 100%;
+        display: block;
+    }
+
+    .project__left {
+        margin: 0 auto;
+    }
+
+    .project__right {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+
+/* TESTIMONIAL SECTION  */
+@media screen and (max-width: 769px) {
+    .swiper-navBtn  {
+        display: none;
+    }
+
+    .slide-content {
+        margin: 0 1rem;
+    }
+}
+
+/* ======== CONTACT US PAGE ========== */
+@media screen and (max-width: 769px) {
+    .contact__container {
+        width: 100%;
+        padding: 3rem;
+    }
+}
+
+/* ======== APPLICATION  PAGE ========== */
+@media screen and (min-width: 769px) {
+    .application__container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* ======== ELIGIBILITY  PAGE ========== */
+@media screen and (max-width: 769px) {
+    .eligibility__box {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .eligibility__content {
+        width: 100%;
+    }
+}
+
+/* ======== ELIGIBILITY  PAGE ========== */
+@media screen and (max-width: 769px) {
+    .loan_container {
+        width: 90%;
+    }
+
+    .loan--header {
+        text-transform: uppercase;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,70 @@
+@media only screen and (max-width: 480px){
+
+    .mini-chart-btn-cont, .mc-logo {
+        width: 100%;
+    }
+
+    .mc-table, .chart-padding {
+        width: 100%;
+    }
+
+    .mc-table {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .mc-table-td {
+        width: auto;
+        flex: 1;
+    }
+
+    .block-charts {
+        width: 100%;
+    }
+    .mini-chart-btn-cont{
+        width: 30%;
+    }
+    #chart-m {
+        /*min-width: 312px;*/
+        width: 100% !important;
+    }
+    .chart-padding {
+        float: left;
+        width: 70%;
+        width: calc(70% - 10px);
+        padding: 10px 10px 0 0;
+    }
+    .mini-chart-btn-cont {
+        padding-top: 10px;
+    }
+
+    #radio label {
+        width: 100% !important;
+    }
+    .mc-logo form{
+        /*width: calc(100% - 40px);*/
+        display: block;
+    }
+    .mc-btn span {
+        font-size: 12px;
+    }
+    .mc-btn {
+        padding:5px 15px !important;
+        height: 52px;
+    }
+    .block-charts .one-chart {
+        overflow: hidden;
+    }
+    .mini-chart-legend {
+        width: 100%;
+        float: none;
+    }
+    .deal-finish-popup .right-foot {
+        font-size: 18px;
+        width: 30%;
+        padding-left: 10px;
+    }
+    .deal-finish-popup .right-foot span {
+        font-size: 18px;
+    }
+}
