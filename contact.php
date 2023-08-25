@@ -13,7 +13,6 @@
         </div>
     </div>
 </header>
-
 <main>
     <section class="contact__section">
         <div class="contact__container">
