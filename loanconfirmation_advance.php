@@ -2,7 +2,6 @@
     $page_title = "Verify Application | Company's Name";
     include ("include/header1.php");
 ?>
-
 <header class="header__contact">
     <div class="contact__banner">
         <div class="header__banner--content">
@@ -44,9 +43,6 @@
 
                             <form method="POST"  action="backend/actions/comfirmloan.php" enctype="multipart/form-data" >
                                 
-
-
-
                                 <div class="application__form--left mb-3">
                                     <label for="al_email" class="application__form--label"> Email <span class="application__form--label-sup">*</span> </label>
                                     <input type="email" name="al_email" id="al_email" class="application__form--input mb-3">
