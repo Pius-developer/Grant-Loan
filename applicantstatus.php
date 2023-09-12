@@ -1,5 +1,4 @@
-                  
-
+                
 <?php
     $page_title = "Applicant Status | Company's Name";
     include ("include/header1.php");
