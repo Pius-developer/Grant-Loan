@@ -15,8 +15,6 @@
         <a href="loan.php" class="btn btn-loan u-margin-top-small">apply for loan &rarr;</a>
     </div>
 </header> 
-
-
 <section class="sponsor__section">
     <div class="sponsor__boxes">
         <div class="sponsor__box">
