@@ -3,8 +3,6 @@
     include ("include/header1.php");
 ?>
 
-
-
 <header class="header__loan">
     <div class="contact__banner">
         <div class="header__banner--content">
