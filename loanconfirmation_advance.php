@@ -15,7 +15,6 @@
 </header>
 
 <main>
-
     <section class="application__section">
         <div class="application__container">
             <div class=" u-margin-bottom-small">
