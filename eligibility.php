@@ -15,6 +15,7 @@
     </div>
 </header>
 
+
 <main>
     <section class="eligibility__section">
         <div class="eligibility__box">
